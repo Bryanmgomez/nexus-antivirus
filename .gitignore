@@ -1,0 +1,29 @@
+# Entornos y caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build
+build/
+dist/
+*.spec
+
+# Datos locales
+data/
+*.db
+*.db-shm
+*.db-wal
+*.log
+.local/
+
+# Secretos
+*.pem
+!definitions/update_public_key.pem
+!tests/fixtures/*.pem
+
+# Temporal
+*.tmp
+*.nxq
